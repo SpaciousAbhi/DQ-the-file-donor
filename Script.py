@@ -202,7 +202,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 {file_name}\nSubscribe: @VenomStoneMovies</b>"""
+<b>📂 {file_name}\n\nSubscribe: @VenomStoneMovies</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
