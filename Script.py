@@ -175,9 +175,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗜𝗳 𝘆𝗼𝘂 𝗱𝗼 𝗻𝗼𝘁 𝘀𝗲𝗲 𝘁𝗵𝗲 𝗿𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗺𝗼𝘃𝗶𝗲/𝘀𝗲𝗿𝗶𝗲𝘀 𝗳𝗶𝗹𝗲, 𝗹𝗼𝗼𝗸 𝗮𝘁 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝗽𝗮𝗴𝗲.""
 
-    MINFO = """Go to Google ➠ Type movie name ➠ Copy correct spelling ➠ Paste this group
-
-● Search Movie Name with Correct Spelling in This Group:
+    MINFO = """● Search Movie Name with Correct Spelling in This Group:
 
 ✅ avatar 2009
 ✅ avatar hindi
@@ -186,9 +184,7 @@ Nᴀᴍᴇ - {}"""
 
 ℹ️ Avoid Using Words Like Seasons/Episodes/Series/Dubbed/Movies/Send/HD, etc."""
 
-    SINFO = """Go to Google ➠ Type series name ➠ Copy correct name ➠ Paste this group
-
-● Search Web Series in This Format:
+    SINFO = """● Search Web Series in This Format:
 
 ✅ vikings S01
 ✅ vikings S01E01
