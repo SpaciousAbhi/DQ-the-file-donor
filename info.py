@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1654334233').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002125043839').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002038220265').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1002125043839')
@@ -49,11 +49,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "shrinkforearn.in")
-VERIFY2_API = environ.get('VERIFY2_API', "8f5004df46babcee0f2996711ff8598938eb0cfd")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c464f482d973a7e88ba6cb7077a3afa5de229dd5')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/VenomStoneMovies/2430")
+VERIFY2_URL = environ.get('VERIFY2_URL', "publicearn.com")
+VERIFY2_API = environ.get('VERIFY2_API', "c464f482d973a7e88ba6cb7077a3afa5de229dd5")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '8f5004df46babcee0f2996711ff8598938eb0cfd')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
