@@ -50,7 +50,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/VenomStoneMovies/2430")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/VenomStoneMovies/2501")
 VERIFY2_URL = environ.get('VERIFY2_URL', "shrinkforearn.in")
 VERIFY2_API = environ.get('VERIFY2_API', "8f5004df46babcee0f2996711ff8598938eb0cfd")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrinkforearn.in')
