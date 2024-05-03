@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/VenomStoneMovies/2430")
 VERIFY2_URL = environ.get('VERIFY2_URL', "publicearn.com")
 VERIFY2_API = environ.get('VERIFY2_API', "c464f482d973a7e88ba6cb7077a3afa5de229dd5")
