@@ -23,7 +23,7 @@ async def verupikkals(bot, message):
     failed =0
 
     success = 0
-    async for user in users:
+    for user in users:
         pti, sh = await broadcast_messages(int(user['id']), b_msg)
         if pti:
             success += 1
@@ -35,7 +35,7 @@ async def verupikkals(bot, message):
             elif sh == "Error":
                 failed += 1
         done += 1
-        await asyncio.sleep(0)
+        await asyncio.sleep(2)
         if not done % 20:
             await sts.edit(f"Broadcast in progress:\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nBlocked: {blocked}\nDeleted: {deleted}")    
     time_taken = datetime.timedelta(seconds=int(time.time()-start_time))
@@ -54,7 +54,7 @@ async def grp_brodcst(bot, message):
     failed =0
 
     success = 0
-    async for chat in chats:
+    for chat in chats:
         pti, sh = await broadcast_messages(int(chat['id']), b_msg)
         if pti:
             success += 1
